@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Oliver Hart",
+    "position": "Goalkeeper",
+    "defence": 80,
+    "passing": 64,
+    "shooting": 95
+  },
+  {
+    "id": 2,
+    "name": "Ethan Stone",
+    "position": "Defender",
+    "defence": 88,
+    "passing": 55,
+    "shooting": 23
+  },
+  {
+    "id": 3,
+    "name": "Mason Green",
+    "position": "Midfielder",
+    "defence": 70,
+    "passing": 90,
+    "shooting": 72
+  },
+  {
+    "id": 4,
+    "name": "Leo Knight",
+    "position": "Attacker",
+    "defence": 45,
+    "passing": 68,
+    "shooting": 92
+  },
+  {
+    "id": 5,
+    "name": "Jacob Frost",
+    "position": "Goalkeeper",
+    "defence": 84,
+    "passing": 50,
+    "shooting": 20
+  },
+  {
+    "id": 6,
+    "name": "Daniel Rivers",
+    "position": "Defender",
+    "defence": 76,
+    "passing": 61,
+    "shooting": 30
+  },
+  {
+    "id": 7,
+    "name": "Ryan Hayes",
+    "position": "Midfielder",
+    "defence": 68,
+    "passing": 81,
+    "shooting": 65
+  },
+  {
+    "id": 8,
+    "name": "Liam Cross",
+    "position": "Attacker",
+    "defence": 40,
+    "passing": 55,
+    "shooting": 88
+  },
+  {
+    "id": 9,
+    "name": "James Thornton",
+    "position": "Goalkeeper",
+    "defence": 91,
+    "passing": 45,
+    "shooting": 18
+  },
+  {
+    "id": 10,
+    "name": "Nathan Wood",
+    "position": "Defender",
+    "defence": 82,
+    "passing": 60,
+    "shooting": 40
+  },
+  {
+    "id": 11,
+    "name": "Cameron Blake",
+    "position": "Midfielder",
+    "defence": 60,
+    "passing": 89,
+    "shooting": 74
+  },
+  {
+    "id": 12,
+    "name": "Isaac Cole",
+    "position": "Attacker",
+    "defence": 38,
+    "passing": 52,
+    "shooting": 96
+  },
+  {
+    "id": 13,
+    "name": "Alexander Fox",
+    "position": "Goalkeeper",
+    "defence": 87,
+    "passing": 47,
+    "shooting": 19
+  },
+  {
+    "id": 14,
+    "name": "Zachary Hale",
+    "position": "Defender",
+    "defence": 79,
+    "passing": 58,
+    "shooting": 28
+  },
+  {
+    "id": 15,
+    "name": "Henry Cole",
+    "position": "Midfielder",
+    "defence": 66,
+    "passing": 75,
+    "shooting": 70
+  },
+  {
+    "id": 16,
+    "name": "Connor Reed",
+    "position": "Attacker",
+    "defence": 35,
+    "passing": 62,
+    "shooting": 91
+  },
+  {
+    "id": 17,
+    "name": "Benjamin Frost",
+    "position": "Goalkeeper",
+    "defence": 85,
+    "passing": 40,
+    "shooting": 25
+  },
+  {
+    "id": 18,
+    "name": "Owen Taylor",
+    "position": "Defender",
+    "defence": 80,
+    "passing": 59,
+    "shooting": 33
+  },
+  {
+    "id": 19,
+    "name": "Luke Morgan",
+    "position": "Midfielder",
+    "defence": 58,
+    "passing": 88,
+    "shooting": 77
+  },
+  {
+    "id": 20,
+    "name": "Logan Steele",
+    "position": "Attacker",
+    "defence": 37,
+    "passing": 53,
+    "shooting": 94
+  },
+  {
+    "id": 21,
+    "name": "Sebastian Grant",
+    "position": "Goalkeeper",
+    "defence": 89,
+    "passing": 42,
+    "shooting": 22
+  },
+  {
+    "id": 22,
+    "name": "Jack Bennett",
+    "position": "Defender",
+    "defence": 81,
+    "passing": 64,
+    "shooting": 36
+  }
+]

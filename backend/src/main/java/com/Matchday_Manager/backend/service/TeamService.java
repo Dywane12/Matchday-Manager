@@ -22,7 +22,7 @@ public class TeamService {
 
     public Team getTeamById(Integer id) {
         return teams.stream()
-                .filter(team -> team.getId() == id)
+                .filter(team -> team.getId().equals(id))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Team not found with id: " + id));
     }

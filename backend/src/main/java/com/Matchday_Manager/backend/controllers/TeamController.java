@@ -2,13 +2,10 @@ package com.Matchday_Manager.backend.controllers;
 
 import com.Matchday_Manager.backend.models.Team;
 import com.Matchday_Manager.backend.service.TeamService;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 
 @RestController
 @RequestMapping("/teams")
@@ -23,5 +20,11 @@ public class TeamController {
     @GetMapping
     public List<Team> getKnockoutTeams() {
         return teamService.getKnockoutTeams();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Team> getTeamById(@PathVariable Integer id) {
+        Team team = teamService.getTeamById(id);
+        return ResponseEntity.ok(team);
     }
 }

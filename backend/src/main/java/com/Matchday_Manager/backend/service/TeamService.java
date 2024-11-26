@@ -1,24 +1,29 @@
 package com.Matchday_Manager.backend.service;
 
 import com.Matchday_Manager.backend.models.Team;
+import com.Matchday_Manager.backend.utils.JsonFileReader;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class TeamService {
+    private final JsonFileReader jsonFileReader;
+    private final List<Team> teams;
+
+    public TeamService(JsonFileReader jsonFileReader) {
+        this.jsonFileReader = jsonFileReader;
+        this.teams = jsonFileReader.readTeamsFromFile("teams.json");
+    }
+
     public List<Team> getKnockoutTeams() {
-        // Mocked data - replace with real data if available
-        List<Team> teams = new ArrayList<>();
-        teams.add(new Team("France", "France"));
-        teams.add(new Team("Germany", "Germany"));
-        teams.add(new Team("Spain", "Spain"));
-        teams.add(new Team("England", "England"));
-        teams.add(new Team("Italy", "Italy"));
-        teams.add(new Team("Netherlands", "Netherlands"));
-        teams.add(new Team("Portugal", "Portugal"));
-        teams.add(new Team("Belgium", "Belgium"));
         return teams;
+    }
+
+    public Team getTeamById(Integer id) {
+        return teams.stream()
+                .filter(team -> team.getId() == id)
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("Team not found with id: " + id));
     }
 }
